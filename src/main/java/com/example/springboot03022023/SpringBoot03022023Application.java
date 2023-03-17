@@ -23,7 +23,7 @@ public class SpringBoot03022023Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Employee employee1 = Employee.builder()
+        /*Employee employee1 = Employee.builder()
                 .name("Name1")
                 .city("City1")
                 .company("Company1")
@@ -39,7 +39,7 @@ public class SpringBoot03022023Application implements CommandLineRunner {
         employeeList.add(employee1);
         employeeList.add(employee2);
 
-        employeeRepository.saveAll(employeeList);
+        employeeRepository.saveAll(employeeList);*/
 
     }
 }
